@@ -1,0 +1,36 @@
+.work {
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+.work-text {
+    &_work-title {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+.work-block {
+    padding-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.work-img {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.work-img img {
+    display: block;
+    transition: 1s;
+        &:hover {
+            transform: scale(1.1);
+        }
+}
